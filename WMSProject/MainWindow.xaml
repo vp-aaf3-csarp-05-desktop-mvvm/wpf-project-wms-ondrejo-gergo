@@ -12,5 +12,10 @@
     <StackPanel Orientation="Vertical">
         <Label Content="Név: "></Label>
         <TextBlock Text="{Binding Name}"></TextBlock>
+        <Label Content="Adószám: "></Label>
+        <TextBlock Text="{Binding Adoszam}"></TextBlock>
+
+        <Label Content="Szabadnapok száma:: "></Label>
+        <TextBlock Text="{Binding SzabadnapokSzama}"></TextBlock>
     </StackPanel>
 </Window>
